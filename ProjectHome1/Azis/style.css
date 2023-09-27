@@ -259,10 +259,10 @@ hr {
 }
 
 .subscribe-newsletter input[type="email"] {
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 250px; 
+    width: 500px; 
 }
 
 .subscribe-newsletter button[type="submit"] {
@@ -270,7 +270,7 @@ hr {
     color: black;
     padding: 8px 15px; 
     border: 1px solid black;
-    border-radius: 5px;  
+    border-radius: 1px;  
     transition: background-color 0.3s; 
     cursor: pointer; 
 }
