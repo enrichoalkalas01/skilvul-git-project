@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 62px 72px 0px 89px;
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    width: 1280px;
+    height: 697px;
+
+}
+
+.nav-container {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 650px;
+    justify-content: center;
+}
+
+.logo{
+    color: #414141;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ ul {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     align-items: center;
+}
+
+ul li a {
+     text-decoration: none;
+     color: #414141;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-right: 50px;
+}
+
+.list-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+}
+
+button {
+    flex-shrink: 0;
+    border: 1px solid #414141;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #414141;
+    font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    height: 50px;
+    width: 150px;
+}
+
+.hero-sec {
+    width: 100%;
+    height: 697px;
+    background-image: url(asset/banner.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.hero-wrap {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 168px;
+}
+
+.text-head {
+    color: #414141;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sub-text {
+    color: #414141;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kotak {
+    width: 75px;
+    height: 3px;
+    border-radius: 15px;
+background: rgba(65, 65, 65, 0.75);
+}
