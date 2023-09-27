@@ -48,6 +48,11 @@ header.navbar .navbar-list ul li .br {
   border-radius: 5px;
 }
 
+header.navbar .navbar-list ul li .br:hover {
+  background-color: black;
+  color: white;
+}
+
 header.navbar .navbar-list ul li a {
   text-decoration: none;
   color: unset;
@@ -98,7 +103,15 @@ section.content h1 {
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
-  padding: 84px 0 32px 0;
+  padding: 84px 0 12px 0;
+}
+
+section.content .line {
+  width: 60px;
+  height: 4px;
+  background-color: #414141;
+  border-radius: 99px;
+  margin: 0 auto;
 }
 
 section.content div.content-descripiton {
@@ -140,7 +153,7 @@ section.content div.content-descripiton .box .desc {
 
 main {
   display: flex;
-  height: auto;
+  height: 580px;
 }
 
 main img {
@@ -160,9 +173,6 @@ main .main-description {
   font-style: italic;
 }
 
-main .main-description h1 {
-}
-
 main .main-description .line {
   width: 60px;
   height: 4px;
@@ -170,4 +180,50 @@ main .main-description .line {
   border-radius: 99px;
   margin-bottom: 24px;
   margin-top: 10px;
+}
+
+section.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #dedede;
+}
+
+section.contact h1,
+p,
+input {
+  margin-bottom: 18px;
+}
+
+section.contact input {
+  width: 450px;
+  height: 50px;
+  padding: 12px;
+}
+
+section.contact button {
+  width: 104px;
+  height: 35px;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: unset;
 }
