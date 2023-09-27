@@ -13,6 +13,7 @@ Challange Array
     { name: 'sinta', age: 24, address: 'jakarta' },
 ]
 ## DataObject = { total: 7, data: Array3 }
+##
 
 1. Data Array [10, 2, 4, 6, 3, 21]
 
