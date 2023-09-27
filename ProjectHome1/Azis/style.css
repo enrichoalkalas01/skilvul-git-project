@@ -37,7 +37,7 @@ a:visited {
 
 .header {
     position: relative;
-    width: 100vw; /* Mengganti dari 100vw */
+    width: 100vw;
     height: 90vh;
 }
 
@@ -55,17 +55,17 @@ a:visited {
 
 
 .title {
-    position: absolute;          /* Agar elemen title berada di atas header-bg */
-    top: 50%;                    /* Posisi 50% dari atas */
-    left: 50%;                   /* Posisi 50% dari kiri */
-    transform: translate(-50%, -50%); /* Teknik sentralisasi elemen */
+    position: absolute;          
+    top: 50%;                    
+    left: 50%;                   
+    transform: translate(-50%, -50%); 
     z-index: 2;
     color: black;
     text-align: center;
-    display: flex;               /* Mengaktifkan Flexbox */
-    flex-direction: column;     /* Elemen disusun secara vertikal */
-    align-items: center;        /* Menyelarasikan konten secara horizontal di tengah */
-    justify-content: center;    /* Menyelarasikan konten secara vertikal di tengah */
+    display: flex;               
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;    
 }
 
 .hr-header {
@@ -126,21 +126,21 @@ a:visited {
 
 .main {
     width: 100%;
-    padding: 2rem 0; /* Memberikan sedikit jarak di atas dan di bawah konten utama. Anda dapat menyesuaikannya sesuai kebutuhan. */
+    padding: 2rem 0; 
 }
 
 .hero-section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Menyelarasikan konten ke tengah secara horizontal */
-    align-items: center; /* Menyelarasikan konten ke tengah secara vertikal */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .container-hero {
-    width: 90%; /* Mengambil 90% dari lebar parent-nya. Anda dapat menyesuaikannya sesuai kebutuhan. */
-    max-width: 1200px; /* Memastikan kontainer tidak terlalu lebar di layar besar */
-    margin: 0 auto; /* Menyelarasikan kontainer ke tengah */
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .last-article {
@@ -250,19 +250,19 @@ hr {
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    height: 90vh; /* Anda dapat mengubah ini sesuai kebutuhan Anda */
+    height: 90vh; 
     width: 100%;
 }
 
 .title-subscribe, .sign-up, input, button[type="submit"] {
-    margin-bottom: 15px; /* Menambahkan jarak di antara elemen */
+    margin-bottom: 15px; 
 }
 
 .subscribe-newsletter input[type="email"] {
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 250px; /* Anda dapat mengatur lebar ini sesuai kebutuhan */
+    width: 250px; 
 }
 
 .subscribe-newsletter button[type="submit"] {
@@ -272,7 +272,7 @@ hr {
     border: 1px solid black;
     border-radius: 5px;  
     transition: background-color 0.3s; 
-    cursor: pointer; /* Menunjukkan bahwa ini dapat diklik */
+    cursor: pointer; 
 }
 
 .subscribe-newsletter button[type="submit"]:hover {
@@ -283,16 +283,13 @@ hr {
 /* Footer */
 
 .footer {
-    display: flex;            /* Mengaktifkan Flexbox */
-    justify-content: flex-end; /* Menyelarasikan konten ke kanan */
-    width: 100%;              /* Mengambil seluruh lebar kontainer parent-nya */
-    padding: 1rem 5%;         /* Padding untuk memberikan sedikit ruang di sisi kiri dan kanan */
+    display: flex;            
+    justify-content: flex-end; 
+    width: 100%;              
+    padding: 1rem 5%;         
 }
 
 .navbar-section {
-    display: flex;            /* Mengaktifkan Flexbox untuk menyusun link secara horizontal */
-    gap: 20px;                /* Memberi jarak antar elemen-elemen di dalam navbar-section */
+    display: flex;            
+    gap: 20px;                
 }
-
-
-
