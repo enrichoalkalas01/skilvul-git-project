@@ -65,6 +65,31 @@ img {
   font-weight: 600 !important;
   line-height: normal;
 }
+.nav__btn {
+  display: none;
+  position: relative;
+  cursor: pointer;
+}
+.nav__btn img {
+  width: 32px;
+}
+.nav__btn-list {
+  position: absolute;
+  right: 0;
+  padding: 48px;
+  background: #fff;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.show {
+  display: flex;
+}
+.nav__btn-list a {
+  color: #414141;
+  font-size: 24px;
+}
 .header__text {
   position: absolute;
   top: 50%;
@@ -299,6 +324,9 @@ img {
   }
   .nav__list {
     display: none;
+  }
+  .nav__btn {
+    display: block;
   }
   .header__text h1 {
     font-size: 56px;
