@@ -14,13 +14,12 @@ body {
   height: 2658px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .Heropage {
-  background-size: 101%;
+  background-size: 105%;
   background-repeat: no-repeat;
-  height: 30%;
+  height: 32%;
   width: 100%;
   position: relative;
   
@@ -108,6 +107,7 @@ li, a {
   height: 10%;
   text-align: center;
   justify-content: center;
+  top: 10%;
 }
 
 .latest span {
@@ -135,7 +135,7 @@ li, a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  top: 10%;
+  top: 20%;
   padding-top: 25px;
   gap: 50px;
   
@@ -152,9 +152,13 @@ li, a {
   border: 1px solid gray;
   box-shadow: 2px 3px gray;
   border-radius: 15px;
-  
   overflow: hidden;
   
+}
+
+.article1:hover {
+  background-color: yellowgreen;
+  cursor: pointer;
 }
 
 .img1 {
@@ -189,3 +193,145 @@ li, a {
   font-weight: lighter;
 }
 
+.aboutbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+
+}
+
+.imgaboutbox {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.imgabt {
+  width: 100%;
+  object-fit: cover;
+}
+
+.textabtbox {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  
+}
+
+.about span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+.lineabout {
+    
+    display: flex;
+    position: relative;
+    width: 50px;
+    border-bottom: 2.5px solid black;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 15px;
+    
+}
+
+.desabout {
+  width: 80%;
+}
+
+.subscribebox {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.subsbox {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+  align-items: center;
+}
+
+.subtitle {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.isi {
+  font-size: 12px;
+}
+
+
+input[type=text] {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #E9ECE9;
+  border: 3px solid white;
+}
+
+.subbutton {
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.footernav {
+  display: flex;
+  position: relative;
+  height: 3%;
+  width: 100%;
+
+  align-items: center;
+}
+
+.smallnav {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  width: 15%;
+  justify-content: center;
+}
+
+.footerlist {
+  display: flex;
+  position: relative;
+  font-size: 18px;
+  gap: 25px;
+  list-style: none;
+}
