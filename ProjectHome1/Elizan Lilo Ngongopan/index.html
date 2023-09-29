@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="hero-sec">
+    <div class="hero-sec" id="home">
         <div class="hero-wrap">
         <nav>
             <div class="nav-container">
@@ -22,9 +22,9 @@
             </div>
             <div class="list-wrap">
                 <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">ARTICLES</a></li>
-                <button>SUBSCRIBE</button>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#article">ARTICLES</a></li>
+                <button><a href="#subscribe">SUBSCRIBE</a></button>
                 </ul>
             </div>    
         </nav>   
@@ -35,5 +35,76 @@
         </div>
     </div>
     </div>
+    
+    <!-- END OF HOMEPAGE -->
+    <section id="article">
+        <div class="header-article">
+            <span>LATEST ARTICLES</span>
+            <div class="kotak"></div>
+        </div>
+        <div class="content-article">
+            <div class="content">
+                <img src="asset/Vector1.png" alt="article 1">
+                <div class="content-text">
+                    <div class="kotak"></div>
+                    <span>Title Of Articles</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, earum.</p>
+                </div>
+            </div>
+            <div class="content">
+               <img src="asset/Vector2.png" alt="article 2">
+                <div class="content-text">
+                    <div class="kotak"></div>
+                    <span>Title Of Articles</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, earum.</p>
+                </div>
+            </div>
+            <div class="content">
+                <img src="asset/Vector3.png" alt="article 3">
+                <div class="content-text">
+                    <div class="kotak"></div>
+                    <span>Title Of Articles</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, earum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF ARTICLE -->
+    <section id="about">
+        <img src="asset/About.png" alt="about image">
+        <div class="wrapper-text">
+            <div class="about-text">
+                <span>ABOUT</span>
+                <div class="kotak"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- END OF ABOUT -->
+    <section id="subscribe">
+        <div class="subscribe-content">
+            <header>
+                <span>SUBSCRIBE</span>
+                <p>Sing up to our newsletters</p>
+            </header>
+            <form action="">
+                <input type="email" id="email" placeholder="Your email here..">
+            </form>
+            <button>SUBMIT</button>
+        </div>
+    </section>
+
+    <!-- END OF SUBSCRIBE -->
+    <footer>
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#article">ARTICLES</a></li>
+            <li><a href="#home">HOME</a></li>                
+        </ul>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
