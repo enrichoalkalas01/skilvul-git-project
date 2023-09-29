@@ -23,18 +23,6 @@ a {
     transition: color 0.3s;  
 }
 
-a:hover, a:focus {
-    color: black;          
-}
-
-a:active {
-    color: black;         
-}
-a:visited {
-    color: #6c757d;       
-}
-
-
 .header {
     position: relative;
     width: 100vw;
@@ -152,7 +140,7 @@ a:visited {
     align-items: center; 
     border: 1px solid black; 
     padding: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .last-article h6 {
@@ -265,7 +253,7 @@ hr {
     width: 500px; 
 }
 
-.subscribe-newsletter button[type="submit"] {
+.subscribe button[type="submit"] {
     background-color: transparent;
     color: black;
     padding: 8px 15px; 
@@ -273,11 +261,6 @@ hr {
     border-radius: 1px;  
     transition: background-color 0.3s; 
     cursor: pointer; 
-}
-
-.subscribe-newsletter button[type="submit"]:hover {
-    background-color: white;
-    color: black; 
 }
 
 /* Footer */
