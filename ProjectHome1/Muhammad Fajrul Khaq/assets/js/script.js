@@ -1,56 +1,72 @@
-// Soal 1
-
-let numA = 2;
-let numB = 3;
+// Soal 1 ( Return the Sum of Two Numbers )
 
 function sum(a, b) {
-  let c = a + b;
-  return c;
-}
-console.log(sum(2, 3));
-
-// Soal 2
-let dayInAYear = 365;
-
-function ageInADay(age) {
-  if (age < 0) {
-    return "Age Wrong";
-  } else return dayInAYear * age;
+  return a + b;
 }
 
-console.log(ageInADay(21));
+console.log(sum(-3, -6));
 
-// Soal 3
-let = myArray = [1, 2, 3];
-let firstElement = getFirstValue(myArray);
+// Soal 2 ( Convert Age to Days )
 
-function getFirstValue(arr) {
-  if (arr.length > 0) {
-    return arr[0];
+function ageInDay(age) {
+  return age * 360;
+}
+
+console.log(ageInDay(21));
+
+//  Soal 3 ( Return the First Element in an Array )
+let sports = ["football", "basketball", "golf"];
+let myArray = [1, 2, 3];
+let merekHp = ["samsung", "poco", "iphone", "nokia"];
+
+function firstElement(arr) {
+  return arr[2];
+}
+
+console.log(firstElement(sports));
+console.log(firstElement(myArray));
+console.log(firstElement(merekHp));
+
+//  Soal 4 ( Convert Hours into Seconds )
+
+// Cara 1
+let SecondInHour = 3600;
+
+function hoursInSecond(hour) {
+  if (hour < 0) {
+    return "err";
   } else {
-    return undefined;
+    return hour * SecondInHour;
   }
 }
 
-console.log(firstElement);
+console.log(hoursInSecond(24));
 
-// Soal 4
-
-function jamKeDetik(jam) {
-  return jam * 3600;
+// Cara 2
+function hoursInSecond(hour) {
+  return hour * 3600;
 }
 
-const jumlahJam = 5;
-const jumlahDetik = jamKeDetik(jumlahJam);
-console.log(`${jumlahJam} jam sama dengan ${jumlahDetik} detik.`);
+console.log(hoursInSecond(10));
 
-// Soal 5
+//  Soal 5 ( Frames Per Second )
 
-function frames(minutes, fps) {
-  return minutes * fps * 60;
+// Cara 1
+function framesPerSecond(menit, frame) {
+  return menit * frame * 60;
 }
 
-console.log(frames(1, 1));
+console.log(framesPerSecond(10, 25));
+
+// Cara 2
+function framesPerSecond(menit, frame) {
+  if (frame < 0) {
+    return "err";
+  } else {
+    return menit * frame * 60;
+  }
+}
+console.log(framesPerSecond(10, 25));
 
 // Soal 6
 
@@ -100,9 +116,7 @@ function filterDomisiliDepok(data) {
 const filteredData = filterDomisiliDepok(data);
 console.log(filteredData);
 
-// Soal 9
-
-// Buatkan function untuk menampilkan data dibawah ini
+// Soal 9 ( Buatkan function untuk menampilkan data dibawah ini )
 
 let data = [
   { name: "lisa", age: 20, domisili: "jakarta" },
