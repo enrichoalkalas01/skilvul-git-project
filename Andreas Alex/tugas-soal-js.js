@@ -4,7 +4,7 @@ Kumpulkan Di Sini
 Dibuat Folder Sesuai Namanya
 
 */
-// RETURN OF THE NUMBER
+// SOAL 1
 function penjumlahan(num1, num2) {
     return num1 + num2;
 }
@@ -15,7 +15,7 @@ function penjumlahan(num1, num2) {
 }
 const hasil = penjumlahan(-3, -6);
 
-//CONVERT AGE TO DAYS
+// SOAL 2
 
 function ageInDays(ageInYears) {
     const daysInYear = 365.25;
@@ -26,7 +26,7 @@ const ageInYears = 25;
 const ageInDaysResult = ageInDays(ageInYears);
 console.log(`Age in days: ${ageInDaysResult}`);
 
-//return the first element in a aray
+// SOAL 3
 
 function getFirstElement(numbersArray) {
     if (Array.isArray(numbersArray) && numbersArray.length > 0) {
@@ -41,7 +41,7 @@ const numbers = [10, 20, 30, 40, 50];
 const firstNumber = getFirstElement(numbers);
 console.log(`The first number is: ${firstNumber}`);
 
-// convert hours into second
+// SOAL 4
 
 function hoursToSeconds(hours) {
     const secondsInHour = 60 * 60; 
@@ -51,7 +51,7 @@ const hours = 2;
 const seconds = hoursToSeconds(hours);
 console.log(`${hours} hours is equal to ${seconds} seconds.`);
 
-// frames per second 
+// SOAL 5
 
 function calculateFrames(minutes, fps) {
     const seconds = minutes * 60; 
@@ -64,7 +64,7 @@ const fps = 60;
 const totalFrames = calculateFrames(minutes, fps);
 console.log(calculateFrames(1, 60))
 
-//
+// SOAL 6
 let array = [9, 3, 2, 1, 5, 10, 9, 4, 6, 7];
 let hasilFilter = [];
 
@@ -78,7 +78,7 @@ for (let i = 0; i < array.length; i++) {
 
 console.log(hasilFilter);
 
-//
+// SOAL 7
 function hitungJumlahArray(array) {
     let total = 0;
 
@@ -94,7 +94,7 @@ let hasil = hitungJumlahArray(array);
 
 console.log(hasil); 
 
-// 
+// SOAL 8 
 
 let data = [
     { name: 'lisa', age: 20, domisili: 'jakarta' },
@@ -122,7 +122,7 @@ let hasilDepok = filterDataDepok(data);
 console.log(hasilDepok);
 
 
-//
+// SOAL 9
 
 let data = [
     { name: 'lisa', age: 20, domisili: 'jakarta' },
