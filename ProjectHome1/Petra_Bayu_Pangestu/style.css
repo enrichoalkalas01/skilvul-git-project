@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&display=swap");
+:root {
+  --primary-color: #414141;
+  --underline: rgba(65, 65, 65, 0.75);
+}
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-color);
+  overflow-x: hidden;
+}
+/*⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ CSS HERO SECTION ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇*/
+#hero {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+.hero-wrapper .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  max-width: 100%;
+  width: 90%;
+  margin: 48px auto;
+  vertical-align: middle;
+}
+
+.hero-wrapper .nav-wrapper .logo {
+  position: relative;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 12px;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.hero-wrapper .nav-wrapper .nav-section {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.hero-wrapper .nav-wrapper .nav-section .nav-list {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.activated {
+  border: 2px solid var(--primary-color);
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.hero-wrapper .content-wrapper {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 40%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0;
+  display: inline;
+}
+.hero-wrapper .content-wrapper .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.hero-wrapper .content-wrapper .content h1 {
+  font-size: 64px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.hero-wrapper .content-wrapper .content p {
+  font-size: 18px;
+  margin: 0;
+}
+.hero-wrapper .content-wrapper .content .underline {
+  position: relative;
+  content: "";
+  width: 72px;
+  height: 3px;
+  background-color: var(--underline);
+  border-radius: 16px;
+  margin: 16px auto 0;
+}
+
+/*⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ CSS HERO SECTION ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆*/
+
+/*⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ CSS ARTICLES SECTION ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇*/
+#article {
+  position: absolute;
+  width: 100vw;
+  top: 100vh;
+  height: 100vh;
+  background-color: #efefef;
+}
+
+.article-wrapper .article-title-wrapper {
+  position: relative;
+  margin: 64px auto;
+}
+
+.article-wrapper .article-title-wrapper h2 {
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.article-wrapper .article-title-wrapper .underline {
+  position: relative;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: var(--underline);
+  border-radius: 16px;
+  margin: 16px auto 0;
+}
+
+.article-wrapper .card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.article-wrapper .card-wrapper .card {
+  max-width: 300px;
+  height: 400px;
+  position: relative;
+  width: 30%;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.article-wrapper .card-wrapper .card .article-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.article-wrapper .card-wrapper .card .article-review {
+  position: relative;
+  margin: 32px auto;
+  width: 80%;
+}
+.article-wrapper .card-wrapper .card .article-review h3 {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+}
+.article-wrapper .card-wrapper .card .article-review p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.article-wrapper .card-wrapper .card .article-review .underline {
+  position: relative;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: var(--underline);
+  border-radius: 16px;
+  margin: 16px auto 0;
+}
+/*⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ CSS ARTICLES SECTION ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆*/
+
+/*⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ CSS ABOUT SECTION ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇*/
+
+#about {
+  position: absolute;
+  width: 100vw;
+  top: 200vh;
+  height: 100vh;
+}
+.about-wrapper {
+  position: relative;
+}
+.about-wrapper .about-container {
+  display: flex;
+}
+
+.about-wrapper .about-container .img-about-wrapper {
+  flex-basis: 50%;
+  width: 100%;
+  height: 100vh;
+}
+.about-wrapper .about-container .img-about-wrapper .image-cover {
+  background: url("./images/about-img.png");
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-wrapper .about-container .about-content-wrapper {
+  position: relative;
+  flex-basis: 50%;
+}
+.about-wrapper .about-container .about-content-wrapper .about-content {
+  position: absolute;
+  width: 75%;
+  max-height: 100%;
+  top: 50%;
+  transform: translate(17.5%, -50%);
+  vertical-align: middle;
+}
+.about-wrapper .about-container .about-content-wrapper .about-content h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.about-wrapper
+  .about-container
+  .about-content-wrapper
+  .about-content
+  .underline {
+  position: relative;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: var(--underline);
+  border-radius: 16px;
+  margin: 8px auto 16px;
+}
+.about-wrapper .about-container .about-content-wrapper .about-content p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: justify;
+}
+
+/*⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ CSS ABOUT SECTION ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆*/
+
+/*⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ CSS CONTACT SECTION ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇*/
+#contact {
+  position: absolute;
+  width: 100vw;
+  top: 300vh;
+  height: 80vh;
+  background-color: #f2f2f2;
+}
+
+.contact-wrapper {
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -70%);
+}
+
+.contact-wrapper form {
+  position: relative;
+  margin: 24px;
+}
+
+input[type="text"] {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  border: 3px solid white;
+  background-color: #e9ece9;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+  color: #414141;
+  text-align: justify;
+}
+
+.contact-wrapper form .contact-btn {
+  width: 104px;
+  height: 35px;
+  border: 1px solid #414141;
+  margin: 25px;
+  color: #414141;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ CSS CONTACT SECTION ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆*/
+
+/*⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇ CSS FOOTER SECTION ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇*/
+#footer {
+  position: absolute;
+  width: 100vw;
+  top: 380vh;
+  height: 20vh;
+  background-color: #fff;
+}
+
+.footer-wrapper {
+  margin: 0 36px;
+}
+.footer-wrapper .footer-content .footer-list {
+  color: #414141;
+  text-align: justify;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 24px;
+  float: right;
+  list-style: none;
+}
+
+/*⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ CSS FOOTER SECTION ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆*/
