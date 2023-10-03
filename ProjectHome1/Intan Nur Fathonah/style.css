@@ -1,0 +1,306 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.main {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;        
+}
+a {
+    text-decoration: none;
+    color: unset;
+    margin-right: 25px;
+    font-size: 24px;
+}
+a:hover {
+    color:#414141;
+}
+.header {
+    position: relative;
+}
+.header .navi {
+    position: relative;
+    display: flex;
+    flex-basis: 50%;
+    padding: 50px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header .navi .navibox {
+    position: relative;
+    width: 100%;
+}
+.header .navi .navibox.left {
+    position: relative;
+}
+.header .navi .navibox.right {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .navi .navibox.left ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+}
+.header .navi .navibox.right ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+}
+.header .navi .navibox.left ul li {
+    margin: auto;
+    margin-left: 10px;
+}
+.header .navi .navibox.right ul li {
+    margin: auto;
+    margin-left: 10px;
+}
+.header .navi .navibox.right ul li .button-subscribe {
+    border: 1px solid #414141;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-radius: 5px;
+}
+.header .navi .navibox.right ul li .button-subscribe:hover {
+    background-color:#414141;
+    color: #f4f7f4;
+}
+.main .content {
+    max-height: 100%;
+    height: 100%;
+    /*position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.main .content .content-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main .content .content-title h1 {
+    font-size: 64px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.main .content .content-title p {
+    font-size: 18px;
+    margin: 0;
+}
+/*.main .content .content-title .line {
+    width: 50px;
+    height: 3px;
+    background-color: #414141;
+    margin-top: 20px;
+}*/
+.main .content .content-title .description::before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #414141;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    bottom: -20px;
+}
+.article {
+    margin-top: -20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article .article-title {
+    position: relative;
+}
+.article .article-title .title {
+    font-size: 18px;
+    padding-top: 67px;
+    text-align: center;
+}
+.article .article-title .title::before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #414141;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    bottom: -20px;
+}
+.article .article-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 141.7px;
+    margin-right: 141.7px;
+    padding-bottom: 42px;
+}
+.article .article-content .card {
+    position: relative;
+    padding: 25px;
+    border-radius: 5px;
+}
+.article .article-content .card .image-article img {
+    width: 299.766px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.article .article-content .card .desc-article {
+    width: 299.766px;
+    height: 200px;
+    flex-shrink: 0;
+    color: #414141;
+    background-color: #fff;
+    text-align: center;
+
+}
+.article .article-content .card .desc-article .container-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article .article-content .card .desc-article .container-line .line {
+    width: 50px;
+    height: 2px;
+    background-color: #414141;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+.article .article-content .card .desc-article h3 {
+    font-size: 18px;
+    margin: -5px;
+}
+.article .article-content .card .desc-article p {
+    font-size: 14px;
+    padding: 10px;
+}
+.about .content-about {
+    position: relative;
+    display: flex;
+}
+.about .content-about .image-about img {
+    width: 894.301px;
+    height: 597px;
+    flex-shrink: 0;
+    margin-left: -128px;
+}
+.about .content-about .desc-about {
+    position: relative;
+}
+.about .content-about .desc-about h3 {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 109px;
+}
+.about .content-about .desc-about h3::before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #414141;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    top: 160px;
+}
+.about .content-about .desc-about p {
+    columns: #000;
+    font-size: 18px;
+    text-align: justify;
+    padding: 15px 69.95px;
+    font-style: italic;
+}
+.subscribe {
+    position: relative;
+    padding-top: 148px;
+    padding-bottom: 148px;
+    margin-top: -5px;
+}
+.subscribe .content-subscribe {
+    position: relative;
+    text-align: center;
+}
+.subscribe .content-subscribe h3 {
+    color: #414141;
+    font-size: 18px;
+}
+.subscribe .content-subscribe p {
+    color: #414141;
+    font-size: 12px;
+}
+.subscribe .form-subscribe form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .form-subscribe form input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    display: block;
+    width: 450px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+    background: #E9ECE9;
+    font-size: 12px;
+    color: #414141;
+}
+.subscribe .form-subscribe form button {
+    display: block;
+    width: 104px;
+    height: 35px;
+    flex-shrink: 0;
+    border: 1px solid #414141;
+    font-size: 12px;
+    color: #414141;
+    border-radius: 5px;
+}
+.subscribe .form-subscribe form button:hover {
+    background-color:#414141;
+    color: #f4f7f4;
+}
+footer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 38px 38px;
+}
+footer ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding: 20px;
+}
+footer ul li {
+    margin-left: 23px;
+}
+footer ul li a {
+    font-size: 18px;
+}
