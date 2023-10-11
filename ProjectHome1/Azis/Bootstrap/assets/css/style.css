@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;   
+    color: black;          
+    transition: color 0.3s;  
+}
+
+/* Footer */
+
+.footer {
+    display: flex;            
+    justify-content: flex-end; 
+    width: 100%;              
+    padding: 1rem 5%;         
+}
+
+.subscribe a {
+    background-color: transparent;
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+}
+
+.navbar-section {
+    display: flex;            
+    gap: 20px;                
+}
